@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(255, 192, 203, 0.4);
+}
+.parent {
+    width: 95%;
+    min-height: 29vh;
+    display: flex;
+    margin: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 10px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    transition: all 1s ease;
+}
+.child-background {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+.background {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    margin: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#one:hover {
+    transform: rotate(45deg);
+    background-color: rgba(255, 192, 203, 0.753);
+
+}
+#two:hover {
+    transform: rotateX(55deg);
+    background-color: rgba(255, 192, 203, 0.753);
+
+}
+#three:hover {
+    transform: rotateY(55deg);
+    background-color: rgba(255, 192, 203, 0.753);
+
+}
+#four:hover {
+ transform: scale(1.5);
+ background-color: rgba(255, 192, 203, 0.753);
+}
+#five:hover {
+    transform: scaleX(1.5);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#six:hover {
+    transform: scaleY(1.5);
+    background-color: rgba(255, 192, 203, 0.753);
+
+}
+#seven:hover {
+    transform: skewX(0.80rad);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#eight:hover {
+    transform: skewY(0.80rad);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#nine:hover {
+    transform: translate(25px, 25px);
+    background-color: rgba(255, 192, 203, 0.753);
+
+}
+#ten:hover {
+    transform: translate(50px);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#eleven:hover {
+    transform: translateY(28px);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#twelve:hover {
+    transform: skewY(0.80rad) scale(1.5) translate(17px, -20px);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#therteen:hover {
+    transform: perspective(100px) rotateX(40deg);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#fourteen:hover {
+    transform: perspective(100px) rotateY(40deg);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+
+#fifteen:hover {
+    transform: rotate(45deg);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#fifteen {
+    transform-origin: top right;
+}
+
+#sixteen:hover {
+    transform: rotate(45deg);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#sixteen {
+    transform-origin: bottom left;
+}
+
+#seventeen:hover {
+    transform: perspective(100px) rotateX(40deg);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#seventeen {
+    transform-origin: bottom;
+}
+
+#eightteen:hover {
+    transform: perspective(8000px) rotateX(40deg);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#eightteen {
+    transform-origin: top;
+}
+
+#nineteen:hover {
+    transform: perspective(300px) rotateY(40deg);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#nineteen {
+    transform-origin: left;
+}
+
+#tweny-four:hover {
+    padding-right: 100px;
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#tweny-three:hover {
+    transform: scaleX(2);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#tweny-three {
+    transform-origin: right;
+}
+
+#tweny-two:hover {
+    transform: scale(1.5);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#tweny-two {
+    transform-origin: left bottom;
+}
+#tweny-one:hover {
+    transform: scale(1.5);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#tweny-one {
+    transform-origin: right top;
+}
+
+#tweny:hover {
+    transform: perspective(800px) rotateY(55deg);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#tweny {
+    transform-origin: right;
+}
+
+#tweny-five:hover {
+    padding-bottom: 100px;
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#tweny-six:hover {
+    transform: scaleY(2);
+    background-color: rgba(255, 192, 203, 0.753);
+}
+#tweny-six {
+    transform-origin: bottom;
+}
